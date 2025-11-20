@@ -12,7 +12,7 @@ jobs:
     name: Host Databases, Run Tests, and Upload Coverage Reports
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     # Set up Docker and Docker Compose
     - name: Install Docker
